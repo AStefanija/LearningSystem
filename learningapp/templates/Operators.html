@@ -787,8 +787,8 @@ div { position: absolute; }
 
     <div id="header">
         <div>
-                <a href="{% static 'documents\Operators in C.pdf' %}">Operators in C++</a><br>
-                <a href="{% static 'documents\Exam_operators.pdf' %}">Exam</a>
+                <a href="{{ MEDIA_URL }}{{ Operators_in_C.pdf.url }}">Operators in C++</a><br>
+                <a href="{{ MEDIA_URL }}{{ Exam_operators.pdf.url }}">Exam</a>
         </div>
     </div>
 

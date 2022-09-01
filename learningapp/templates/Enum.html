@@ -787,8 +787,8 @@ div { position: absolute; }
 
     <div id="header">
         <div>
-                <a href="{% static 'documents\Enum.pdf' %}">Enumeration in C++</a><br>
-                <a href="{% static 'documents\ExamEnum.pdf' %}">Exam</a>
+                <a href="{{ MEDIA_URL }}{{ Enum.pdf.url }}">Enumeration in C++</a><br>
+                <a href="{{ MEDIA_URL }}{{ ExamEnum.pdf.url }}">Exam</a>
         </div>
     </div>
 
